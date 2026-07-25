@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Fintech Tick-Run Bars — Bar Construction Algorithm"
+message: "If you use this software, please cite it and the companion article."
+type: software
+authors:
+  - name: "The Fintech Builder"
+repository-code: "https://github.com/IslamBaraka90/Fintech-Tick-Run-Bars-Bar-Construction-algorithm"
+url: "https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-run-bars/"
+keywords:
+  - fintech
+  - tick-run-bars
+  - information-driven-bars
+  - bar-construction
+  - market-data
+license: MIT
+version: "0.1.0"

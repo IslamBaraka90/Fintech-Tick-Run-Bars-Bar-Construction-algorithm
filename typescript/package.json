@@ -1,0 +1,46 @@
+{
+  "name": "fintech-tick-run-bars",
+  "version": "0.1.0",
+  "description": "Tick-Run Bars for market-data engineering — information-driven bars that close on the dominant side's cumulative tick run against an EWMA-adaptive frozen threshold. Canonical cross-language reference implementation.",
+  "keywords": [
+    "fintech",
+    "tick-run-bars",
+    "run-bars",
+    "imbalance-bars",
+    "bar-construction",
+    "information-driven-bars",
+    "order-flow",
+    "tick-rule",
+    "ohlcv",
+    "market-data",
+    "market-data-engineering",
+    "trading",
+    "finance",
+    "quant",
+    "algorithm"
+  ],
+  "homepage": "https://thefintechbuilder.com/market-data-engineering/bar-construction/tick-run-bars/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IslamBaraka90/Fintech-Tick-Run-Bars-Bar-Construction-algorithm.git"
+  },
+  "license": "MIT",
+  "author": "The Fintech Builder <islam.baraka.90@gmail.com>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-strip-types --test \"test/*.test.ts\"",
+    "example": "node --experimental-strip-types examples/quickstart.ts"
+  },
+  "devDependencies": { "typescript": "^5.7.0" }
+}
