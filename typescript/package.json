@@ -1,7 +1,7 @@
 {
   "name": "fintech-tick-run-bars",
   "version": "0.1.0",
-  "description": "Tick-Run Bars for market-data engineering — information-driven bars that close on the dominant side's cumulative tick run against an EWMA-adaptive frozen threshold. Canonical cross-language reference implementation.",
+  "description": "Tick-Run Bars for market-data engineering \u2014 information-driven bars that close on the dominant side's cumulative tick run against an EWMA-adaptive frozen threshold. Canonical cross-language reference implementation.",
   "keywords": [
     "fintech",
     "tick-run-bars",
@@ -35,12 +35,22 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist", "src", "README.md", "LICENSE"],
-  "engines": { "node": ">=20" },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "tsc",
     "test": "node --experimental-strip-types --test \"test/*.test.ts\"",
     "example": "node --experimental-strip-types examples/quickstart.ts"
   },
-  "devDependencies": { "typescript": "^5.7.0" }
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
 }
